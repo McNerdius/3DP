@@ -1,10 +1,10 @@
 ﻿
-using SharpSCAD;
-using static SharpSCAD.OpenSCAD;
+// using SharpSCAD;
+// using static SharpSCAD.OpenSCAD;
 
-using static Constants;
+// using static Constants;
 
-new Scene( "test" )
-{
-    new BarbConnector()
-}.Save();
+// new Scene( "test" )
+// {
+//     new BarbConnector()
+// }.Save();
