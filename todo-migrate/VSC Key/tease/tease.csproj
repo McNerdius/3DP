@@ -3,10 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="SharpSCAD" Version="0.0.3" />
-  </ItemGroup>
-
+<ItemGroup>
+    <ProjectReference Include="../../../SharpSCAD/Source/SharpSCAD/SharpSCAD.csproj" />
+</ItemGroup>
 </Project>

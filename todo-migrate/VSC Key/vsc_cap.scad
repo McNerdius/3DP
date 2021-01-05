@@ -8,8 +8,8 @@ TOP_HEIGHT = 1.0001;
 
 include <cap.scad>
 
-// vsc_key();
-logo_grid();
+vsc_key();
+// logo_grid();
 
 module vsc_key(height = HEIGHT)
 {
@@ -18,8 +18,8 @@ module vsc_key(height = HEIGHT)
         rounded_cube(WIDTH, WIDTH, TOP_HEIGHT, CORNER_RADIUS);
 
         translate([0,0,-2]) 
-            scale([1.333,1.333,10]) 
-                logo("assets/filled.svg");
+            scale([0.45,0.45,10]) 
+                logo("assets/vsc/filled.svg");
     }
 
     key(height, TOP_THICKNESS);
@@ -50,6 +50,6 @@ module logo_grid()
 
         translate([_scale*20,height*20,0])
         scale([_s,_s,_h])
-        logo("assets/logo.svg");
+        logo("assets/vsc/logo.svg");
     }
 }

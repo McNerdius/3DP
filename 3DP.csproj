@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Karmatach.ThreeDeePee</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="fix\**" />
+    <EmbeddedResource Remove="fix\**" />
+    <None Remove="fix\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="sharpscad" Version="0.0.3" />
+  </ItemGroup>
+
+</Project>
