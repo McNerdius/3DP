@@ -6,7 +6,7 @@ namespace Karmatach.ThreeDeePee
     {
         static void Main( string[] args )
         {
-            Console.WriteLine( "Hello World!" );
+            Models.MatrixBoard.Save();
         }
     }
 }
