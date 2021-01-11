@@ -6,7 +6,7 @@ using static SharpSCAD.OpenSCAD;
 
 namespace Karmatach.ThreeDeePee
 {
-    public static partial class Models
+    public static partial class Scenes
     {
         public static Scene HalfSBB
         {

@@ -43,6 +43,9 @@ union() // SharpSCAD generated scene: HalfSBB
               {
                 sphere( r= 1.2, $fn= 32 );
               }
+              union()
+              {
+              }
             }
           }
         }
@@ -95,6 +98,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       {
                         sphere( r= 1, $fn= 32 );
                       }
+                      union()
+                      {
+                      }
                     }
                   }
                 }
@@ -140,6 +146,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       translate( v= [ 1.5, 7, 4 ] )
                       {
                         sphere( r= 1, $fn= 32 );
+                      }
+                      union()
+                      {
                       }
                     }
                   }
@@ -197,6 +206,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       {
                         sphere( r= 1, $fn= 32 );
                       }
+                      union()
+                      {
+                      }
                     }
                   }
                 }
@@ -242,6 +254,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       translate( v= [ 1.5, 7, 4 ] )
                       {
                         sphere( r= 1, $fn= 32 );
+                      }
+                      union()
+                      {
                       }
                     }
                   }
@@ -299,6 +314,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       {
                         sphere( r= 1, $fn= 32 );
                       }
+                      union()
+                      {
+                      }
                     }
                   }
                 }
@@ -344,6 +362,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       translate( v= [ 1.5, 7, 4 ] )
                       {
                         sphere( r= 1, $fn= 32 );
+                      }
+                      union()
+                      {
                       }
                     }
                   }
@@ -401,6 +422,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       {
                         sphere( r= 1, $fn= 32 );
                       }
+                      union()
+                      {
+                      }
                     }
                   }
                 }
@@ -446,6 +470,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       translate( v= [ 1.5, 7, 4 ] )
                       {
                         sphere( r= 1, $fn= 32 );
+                      }
+                      union()
+                      {
                       }
                     }
                   }
@@ -503,6 +530,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       {
                         sphere( r= 1, $fn= 32 );
                       }
+                      union()
+                      {
+                      }
                     }
                   }
                 }
@@ -548,6 +578,9 @@ union() // SharpSCAD generated scene: HalfSBB
                       translate( v= [ 1.5, 7, 4 ] )
                       {
                         sphere( r= 1, $fn= 32 );
+                      }
+                      union()
+                      {
                       }
                     }
                   }

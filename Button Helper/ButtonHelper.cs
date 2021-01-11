@@ -5,7 +5,7 @@ using static SharpSCAD.OpenSCAD;
 
 namespace Karmatach.ThreeDeePee
 {
-    public static partial class Models
+    public static partial class Scenes
     {
         public static Scene ButtonHelper( double wireRadius = 1.7, double wireSpacing = 2.5 )
         => new( "handle" )

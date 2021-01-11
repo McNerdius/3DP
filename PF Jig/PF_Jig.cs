@@ -9,7 +9,7 @@ using Karmatach.ThreeDeePee.PF_Jig;
 
 namespace Karmatach.ThreeDeePee
 {
-    public static partial class Models
+    public static partial class Scenes
     {
         public static Scene PF_Jig( Jar jig_for_jar )
             => new( jig_for_jar.Description ) { new PF_Jig.PF_Jig() { Jar = jig_for_jar } };
