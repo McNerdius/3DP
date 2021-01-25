@@ -1,4 +1,4 @@
-namespace Karmatach.ThreeDeePee.PF_Jig
+namespace Karmatach.ThreeDeePee.PF_Helpers
 {
     public class Jar
     {

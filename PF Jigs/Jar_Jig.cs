@@ -5,19 +5,12 @@ using SharpSCAD;
 
 using static SharpSCAD.OpenSCAD;
 using static SharpSCAD.Math;
-using Karmatach.ThreeDeePee.PF_Jig;
 
 namespace Karmatach.ThreeDeePee
 {
-    public static partial class Scenes
+    namespace PF_Helpers
     {
-        public static Scene PF_Jig( Jar jig_for_jar )
-            => new( jig_for_jar.Description ) { new PF_Jig.PF_Jig() { Jar = jig_for_jar } };
-    }
-
-    namespace PF_Jig
-    {
-        public class PF_Jig : Module
+        public class Jar_Jig : Module
         {
             public Jar Jar { get; init; } = Jar.Normal;
 
